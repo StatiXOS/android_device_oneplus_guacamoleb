@@ -17,8 +17,21 @@ vendor/lib/hw/audio.primary.msmnile.so
 vendor/lib64/hw/audio.primary.msmnile.so
 
 # Camera
+vendor/etc/camera/vidhance_calibration
 vendor/lib/camera/components/com.oneplus.node.bokeh.so
+vendor/lib/camera/components/com.oneplus.node.eis.so
+vendor/lib/camera/components/com.oneplus.node.memcpy.so
+vendor/lib/camera/components/com.oneplus.node.preview.so
 vendor/lib/camera/components/com.oneplus.node.rtb.so
+vendor/lib/camera/components/com.oneplus.node.sat.so
+vendor/lib/camera/components/com.qti.node.eisv2.so
+vendor/lib/camera/components/com.qti.node.eisv3.so
+vendor/lib/camera/components/com.qti.stats.aec.so
+vendor/lib/camera/components/com.qti.stats.af.so
+vendor/lib/libopcamera_native_modules.so
+vendor/lib/libsns_api.so
+vendor/lib/libsnsapi.so
+vendor/lib/libsnsdiaglog.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
 vendor/lib64/camera/com.qti.sensormodule.gcoreinc_gc5035.bin
@@ -30,12 +43,30 @@ vendor/lib64/camera/com.qti.tuned.semco_imx586.bin
 vendor/lib64/camera/com.qti.tuned.semco_imx586_18821.bin
 vendor/lib64/camera/com.qti.tuned.sunny_imx471.bin
 vendor/lib64/camera/com.qti.tuned.sunny_imx471_18821.bin
+vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/components/com.oneplus.node.eis.so
+vendor/lib64/camera/components/com.oneplus.node.memcpy.so
+vendor/lib64/camera/components/com.oneplus.node.preview.so
+vendor/lib64/camera/components/com.oneplus.node.sat.so
 vendor/lib64/camera/components/com.oneplus.node.bokeh.so
 vendor/lib64/camera/components/com.oneplus.node.rtb.so
+vendor/lib64/camera/components/com.qti.node.eisv2.so
+vendor/lib64/camera/components/com.qti.node.eisv3.so
+vendor/lib64/camera/components/com.qti.stats.aec.so
+vendor/lib64/camera/components/com.qti.stats.af.so
+vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libopcamera_native_modules.so
+vendor/lib64/libsns_api.so
+vendor/lib64/libsnsapi.so
+vendor/lib64/libsnsdiaglog.so
+
+# DASH
+sbin/dashd:bin/dashd
 
 # Fingerprint
+-vendor/app/QFingerprintService/QFingerprintService.apk
 vendor/lib/hw/goodix.fod.msmnile.so
 vendor/lib/fp_hal_extension.so
 vendor/lib/libgf_ud_hal.so
