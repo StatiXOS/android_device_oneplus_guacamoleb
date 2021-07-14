@@ -3,5 +3,11 @@
     "repository": "android_device_oneplus_sm8150-common",
     "target_path": "device/oneplus/sm8150-common",
     "branch": "11-new"
-  }
+  },
+  {
+    "repository": "mvaisakh/vendor_oneplus_camera",
+    "target_path": "vendor/oneplus/camera",
+    "branch": "oos-11",
+    "remote": "gitlab"
+  },
 ]
