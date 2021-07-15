@@ -9,5 +9,5 @@
     "target_path": "vendor/oneplus/camera",
     "branch": "oos-11",
     "remote": "gitlab"
-  },
+  }
 ]
