@@ -32,10 +32,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator@1.2-service
-
 # OPFeature
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list
