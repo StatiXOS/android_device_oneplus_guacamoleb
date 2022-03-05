@@ -9,7 +9,7 @@ BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/guacamoleb
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 454
 
 # Kernel
 TARGET_KERNEL_CONFIG := oneplus7_defconfig
